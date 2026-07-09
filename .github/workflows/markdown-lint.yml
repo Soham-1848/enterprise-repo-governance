@@ -1,0 +1,19 @@
+name: Codebase Style Guard
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  style-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Repository Files
+        uses: actions/checkout@v4
+
+      - name: Scan Markdown Formatting
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: "**/*.md"
