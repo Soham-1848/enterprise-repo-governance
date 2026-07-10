@@ -1,16 +1,26 @@
 ---
-name: 🚀 Feature Request
+name: 🚀 Interactive Feature Proposal
 about: Propose a structured change or architectural upgrade path.
 title: '[FEATURE]: '
 labels: enhancement
 assignees: ''
 ---
 
-## 🎯 Problem Statement
-Is your feature request related to a specific structural problem or limitation? Please describe it clearly.
+## 🎯 Target Objective
+A crisp problem statement detailing why current limitations require a systems upgrade.
 
-## 💡 Proposed Solution
-A clear and descriptive overview of the ideal workflow adjustment or tool integration you want to see.
+## 🎛️ Impact Scope (Click to select target)
+- [ ] Core Engine / Backend optimization
+- [ ] CI/CD Pipeline Automation Upgrade
+- [ ] Documentation / Governance Guardrail
 
-## ⚡ Additional Value Add
-Explain how this modification upgrades the repository governance lifecycle or efficiency.
+<details>
+<summary><b>💡 Click here to view Proposed System Architecture Design</b></summary>
+
+### Architectural Blueprint
+* Describe the high-level code structure adjustments here.
+* Detail any new system components to introduce.
+</details>
+
+## ⚡ Business Value Add
+Explain how this implementation upgrades overall repository governance velocity or execution security.

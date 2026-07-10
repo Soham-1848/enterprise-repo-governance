@@ -1,23 +1,26 @@
 ---
-name: 🐛 Bug Report
-about: Create a structured report to help isolate an operational defect.
+name: 🐛 Interactive Bug Report
+about: File a structured, data-driven defect report with interactive elements.
 title: '[BUG]: '
 labels: bug, automated-triage
 assignees: ''
 ---
 
-## 📝 Defect Description
-A clear and concise description of what the operational error is.
+## 📝 Defect Overview
+Provide a high-level summary of the architectural break. 
 
-## 🔄 Steps to Reproduce
-Provide clear, sequential steps to trigger the issue:
-1. Go to '...'
-2. Execute command '...'
-3. See error '...'
+## 🧪 Environmental Scope (Click to check options)
+- [ ] Production Environment
+- [ ] Local Sandbox (Windsurf IDE / Dell G15)
+- [ ] Continuous Integration (CI) Cloud Pipeline
 
-## 📊 Expected Behavior
-A concise statement of what should have occurred under normal operations.
+## 🔄 Execution Vector (Steps to Reproduce)
+1. Navigate to directory `...`
+2. Execute command `...`
+3. Observe system degradation state.
 
-## 💻 Environment Details
-*   Operating System: [e.g., Windows 11, macOS]
-*   Workspace Tool: Windsurf IDE
+<details>
+<summary><b>💥 Click here to expand / paste error stack traces</b></summary>
+
+```text
+// Paste your terminal or compilation crash logs here
